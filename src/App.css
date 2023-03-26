@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+.loginBox {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  height: 100vh;
+  gap: 2rem;
+}
+.captchaBox {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.captchaBox > p {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 0px 1rem;
+  font-size: 20px;
+  font-family: "Cedarville Cursive", cursive;
+}
+
+.captchaInput {
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+input {
+  font-size: 20px;
+}
+.submitButton {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  outline: none;
+}
+.inputBox {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.inputBox > label {
+  font-size: 20px;
+
+  left: 20px;
+}
+.submitForm {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+}
